@@ -1,4 +1,4 @@
-package com.salih.spring.data.mongodb.model;
+package com.salih.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

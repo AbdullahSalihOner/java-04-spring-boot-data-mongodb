@@ -1,13 +1,13 @@
-package com.salih.spring.data.mongodb;
+package com.salih;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootDataMongodbApplication {
+public class MyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootDataMongodbApplication.class, args);
+		SpringApplication.run(MyApplication.class, args);
 	}
 
 }

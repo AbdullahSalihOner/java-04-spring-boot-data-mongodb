@@ -1,10 +1,10 @@
-package com.salih.spring.data.mongodb.controller;
+package com.salih.controller;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import com.salih.spring.data.mongodb.model.Tutorial;
+import com.salih.model.Tutorial;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.salih.spring.data.mongodb.repository.TutorialRepository;
+import com.salih.repository.TutorialRepository;
 
 //@CrossOrigin(origins = "http://localhost:8081")
 

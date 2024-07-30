@@ -1,8 +1,8 @@
-package com.salih.spring.data.mongodb.repository;
+package com.salih.repository;
 
 import java.util.List;
 
-import com.salih.spring.data.mongodb.model.Tutorial;
+import com.salih.model.Tutorial;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface TutorialRepository extends MongoRepository<Tutorial, String> {
